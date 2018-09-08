@@ -1,24 +1,33 @@
-# README
+## IdeaBoardBackend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the backend built through this [tutorial](https://learnetto.com/tutorials/rails-5-api-and-react-js-tutorial-how-to-make-an-idea-board-app)
 
-Things you may want to cover:
-
+note that the frontend can be found in a different repository 
+## Technology used 
 * Ruby version
+2.4.2
 
-* System dependencies
+* Rails version
+5.2
 
-* Configuration
 
-* Database creation
+## To get Started
 
-* Database initialization
+cd into the root folder and then run the following command in Terminal : 
 
-* How to run the test suite
+```
+bundle install 
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
+And you can then run it : 
 
-* ...
+```
+rails s -p 3001
+
+```
+
+while the server runs on port 3001,  the front end need to run on a different port. 
+
+
+
